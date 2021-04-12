@@ -17,10 +17,10 @@ cuda 10.1
 
 
 ### 3. How to use
-- download the `ddd_3dop.pth` from [here](https://github.com/xingyizhou/CenterNet/blob/master/readme/MODEL_ZOO.md)
-- Convert CenterNet-3D model to `onnx`. See [here](readme/ctddd2onnx.md) for details, Use [netron](https://github.com/lutzroeder/netron) to observe whether the output of the converted onnx model is `(('hm', 3), ('dep', 1), ('rot', 8), ('dim', 3), ('wh', 2), ('reg', 2))`  
+- Optional: download the `ddd_3dop.pth` from [here](https://github.com/xingyizhou/CenterNet/blob/master/readme/MODEL_ZOO.md)
+- Optional: Convert CenterNet-3D model to `onnx`.(onnx model can be found ) See [here](readme/ctddd2onnx.md) for details, Use [netron](https://github.com/lutzroeder/netron) to observe whether the output of the converted onnx model is `(('hm', 3), ('dep', 1), ('rot', 8), ('dim', 3), ('wh', 2), ('reg', 2))`  
 - set the OPENCV path in `./src/CMakeLists.txt` ,set the TENSORRT path in `./CMakeLists.txt`
-- uncomment the configs of 3-D model in `./include/ctdetConfig.h` and comment others.
+- Finished: uncomment the configs of 3-D model in `./include/ctdetConfig.h` and comment others.
 - build
 ```
 git clone https://github.com/Qjizhi/TensorRT-CenterNet-3D.git
