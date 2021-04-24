@@ -1,10 +1,10 @@
 # TensorRT-CenterNet-3D   
 Most parts of this Repo are based on [CaoWGG](https://github.com/CaoWGG/TensorRT-CenterNet), Thanks for that great work, and I didn't find an open-sourced 3d-detection based on CenterNet (2020.06). So I followed the work of Cao and test the 3D detection based on CenterNet with the acceleration of TensorRT.
 ### 1. Enviroments
-NVIDIA Quadro M4000
+NVIDIA Jetson Xavier AGX
 ```
 pytorch 1.1
-ubuntu 16.04
+ubuntu 18
 TensorRT 5.0
 onnx-tensorrt v5.0
 cuda 10.1
