@@ -26,6 +26,7 @@ cuda 10.1
 git clone https://github.com/Qjizhi/TensorRT-CenterNet-3D.git
 cd TensorRT-CenterNet-3D
 mkdir build
+export LIBRARY_PATH=/usr/local/cuda-10.0/targets/aarch64-linux/lib:${LIBRARY_PATH}
 cd build && cmake .. && make
 cd ..
 ```

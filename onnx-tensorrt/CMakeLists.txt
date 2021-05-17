@@ -135,7 +135,6 @@ else()
       53
       61
       70
-      72
       )
   # Add SM 75 for CUDA versions >= 10.0
   if (NOT ("${CUDA_VERSION}" VERSION_LESS "10.0"))

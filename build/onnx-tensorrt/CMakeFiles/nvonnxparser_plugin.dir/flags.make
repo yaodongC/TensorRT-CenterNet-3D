@@ -7,11 +7,11 @@ CUDA_FLAGS =  -cudart static     -lineinfo     -g     --expt-extended-lambda    
 
 CUDA_DEFINES = -DONNX_NAMESPACE=onnx2trt_onnx
 
-CUDA_INCLUDES = -I/home/yaodong/Desktop/TensorRT-CenterNet-3D/onnx-tensorrt/third_party/onnx -I/home/yaodong/Desktop/TensorRT-CenterNet-3D/build/onnx-tensorrt/third_party/onnx 
+CUDA_INCLUDES = -I/usr/local/cuda-10.0/include -I/home/yaodong/Desktop/TensorRT-CenterNet-3D/onnx-tensorrt/third_party/onnx -I/home/yaodong/Desktop/TensorRT-CenterNet-3D/build/onnx-tensorrt/third_party/onnx 
 
 CXX_FLAGS =  -Wall -O3 -DNDEBUG -fPIC   -std=gnu++11
 
 CXX_DEFINES = -DONNX_NAMESPACE=onnx2trt_onnx
 
-CXX_INCLUDES = -I/home/yaodong/Desktop/TensorRT-CenterNet-3D/onnx-tensorrt/third_party/onnx -I/home/yaodong/Desktop/TensorRT-CenterNet-3D/build/onnx-tensorrt/third_party/onnx 
+CXX_INCLUDES = -I/usr/local/cuda-10.0/include -I/home/yaodong/Desktop/TensorRT-CenterNet-3D/onnx-tensorrt/third_party/onnx -I/home/yaodong/Desktop/TensorRT-CenterNet-3D/build/onnx-tensorrt/third_party/onnx 
 

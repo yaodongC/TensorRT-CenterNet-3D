@@ -286,6 +286,45 @@ onnxifi_loader/fast:
 	$(MAKE) -f onnx-tensorrt/third_party/onnx/CMakeFiles/onnxifi_loader.dir/build.make onnx-tensorrt/third_party/onnx/CMakeFiles/onnxifi_loader.dir/build
 .PHONY : onnxifi_loader/fast
 
+#=============================================================================
+# Target rules for targets named ctdet
+
+# Build rule for target.
+ctdet: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ctdet
+.PHONY : ctdet
+
+# fast build rule for target.
+ctdet/fast:
+	$(MAKE) -f src/CMakeFiles/ctdet.dir/build.make src/CMakeFiles/ctdet.dir/build
+.PHONY : ctdet/fast
+
+#=============================================================================
+# Target rules for targets named runDet
+
+# Build rule for target.
+runDet: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 runDet
+.PHONY : runDet
+
+# fast build rule for target.
+runDet/fast:
+	$(MAKE) -f example/CMakeFiles/runDet.dir/build.make example/CMakeFiles/runDet.dir/build
+.PHONY : runDet/fast
+
+#=============================================================================
+# Target rules for targets named buildEngine
+
+# Build rule for target.
+buildEngine: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 buildEngine
+.PHONY : buildEngine
+
+# fast build rule for target.
+buildEngine/fast:
+	$(MAKE) -f example/CMakeFiles/buildEngine.dir/build.make example/CMakeFiles/buildEngine.dir/build
+.PHONY : buildEngine/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -308,6 +347,9 @@ help:
 	@echo "... onnx"
 	@echo "... gen_onnx_proto"
 	@echo "... onnxifi_loader"
+	@echo "... ctdet"
+	@echo "... runDet"
+	@echo "... buildEngine"
 .PHONY : help
 
 

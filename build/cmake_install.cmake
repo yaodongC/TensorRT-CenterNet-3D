@@ -40,6 +40,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/yaodong/Desktop/TensorRT-CenterNet-3D/build/onnx-tensorrt/cmake_install.cmake")
+  include("/home/yaodong/Desktop/TensorRT-CenterNet-3D/build/src/cmake_install.cmake")
+  include("/home/yaodong/Desktop/TensorRT-CenterNet-3D/build/example/cmake_install.cmake")
 
 endif()
 

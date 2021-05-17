@@ -13,7 +13,7 @@ message(STATUS "Found TensorRT libs ${TENSORRT_LIBRARY_INFER}")
 
 
 # set your OPENCV path
-#set(OpenCV_DIR /home/xxx/libs/opencv-3.4.2/build)
+# set(OpenCV_DIR /home/xxx/libs/opencv-3.4.2/build)
 find_package(OpenCV REQUIRED)
 link_directories(${OpenCV_LIBRARIES_DIRS})
 

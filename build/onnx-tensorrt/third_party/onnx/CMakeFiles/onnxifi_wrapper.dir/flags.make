@@ -6,5 +6,5 @@ C_FLAGS = -O3 -DNDEBUG -fPIC   -std=c99
 
 C_DEFINES = -DONNX_NAMESPACE=onnx2trt_onnx -Donnxifi_wrapper_EXPORTS
 
-C_INCLUDES = -I/home/yaodong/Desktop/TensorRT-CenterNet-3D/onnx-tensorrt/third_party/onnx 
+C_INCLUDES = -I/usr/local/cuda-10.0/include -I/home/yaodong/Desktop/TensorRT-CenterNet-3D/onnx-tensorrt/third_party/onnx 
 

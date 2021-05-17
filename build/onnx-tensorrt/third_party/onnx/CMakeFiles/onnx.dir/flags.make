@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -Wnon-virtual-dtor -O3 -DNDEBUG -fPIC   -Wall -Wextra -std=gn
 
 CXX_DEFINES = -DONNX_NAMESPACE=onnx2trt_onnx
 
-CXX_INCLUDES = -I/home/yaodong/Desktop/TensorRT-CenterNet-3D/onnx-tensorrt/third_party/onnx -I/home/yaodong/Desktop/TensorRT-CenterNet-3D/build/onnx-tensorrt/third_party/onnx 
+CXX_INCLUDES = -I/usr/local/cuda-10.0/include -I/home/yaodong/Desktop/TensorRT-CenterNet-3D/onnx-tensorrt/third_party/onnx -I/home/yaodong/Desktop/TensorRT-CenterNet-3D/build/onnx-tensorrt/third_party/onnx 
 

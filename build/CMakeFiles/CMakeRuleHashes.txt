@@ -5,3 +5,4 @@
 789421f74cdb7a6be83730eb7c0c2308 onnx-tensorrt/third_party/onnx/onnx/onnx-operators_onnx2trt_onnx.proto
 8c40dec94bed1b233549ccc52e4974d3 onnx-tensorrt/third_party/onnx/onnx/onnx_onnx2trt_onnx.pb.cc
 e2a687d31a5af27ef1f8c36178e23193 onnx-tensorrt/third_party/onnx/onnx/onnx_onnx2trt_onnx.proto
+331f6601dfb96d3a2849c09784323cae src/CMakeFiles/ctdet.dir/ctdet_generated_ctdetLayer.cu.o
